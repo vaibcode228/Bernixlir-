@@ -1,0 +1,15 @@
+<resources>
+    <style name="HomeTheme" parent="android:Theme.DeviceDefault.Wallpaper.NoTitleBar">
+        <item name="android:windowShowWallpaper">true</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:statusBarColor">@android:color/transparent</item>
+        <item name="android:navigationBarColor">@android:color/transparent</item>
+        <item name="android:windowDrawsSystemBarBackgrounds">true</item>
+        <item name="android:windowNoTitle">true</item>
+    </style>
+    <style name="SettingsTheme" parent="android:Theme.DeviceDefault">
+        <item name="android:windowBackground">@android:color/black</item>
+        <item name="android:statusBarColor">#FF121214</item>
+        <item name="android:navigationBarColor">#FF121214</item>
+    </style>
+</resources>
